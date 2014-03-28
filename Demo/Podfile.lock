@@ -1,0 +1,10 @@
+PODS:
+  - Haneke (0.0.5)
+
+DEPENDENCIES:
+  - Haneke
+
+SPEC CHECKSUMS:
+  Haneke: 34087f62b25a9b6502fefe934bc258dab94233b4
+
+COCOAPODS: 0.29.0

@@ -7,6 +7,7 @@
 
 #import "SVPulsingAnnotationView.h"
 #import <QuartzCore/QuartzCore.h>
+#import "Haneke.h"
 
 @interface SVPulsingAnnotationView ()
 
@@ -283,6 +284,14 @@
     CGColorSpaceRelease(colorSpace);
     
     return dotImage;
+}
+
+-(void)setImageFromUrlAsString:(NSURL*)url success:(void (^)(UIImage *image))successBlock failure:(void (^)(NSError *error))failureBlock {
+    if(self.placeHolder!=nil) {
+        [self.imageView hnk_setImageFromURL:url placeholderImage:self.placeHolder success:successBlock failure:failureBlock];
+    } else {
+        [self.imageView hnk_setImageFromURL:url success:successBlock failure:failureBlock];
+    }
 }
 
 @end

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>590258B2-0D44-42A0-8764-91FFB970D121</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SVPulsingAnnotationView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58D7174A-3287-4726-8985-F5AF8F10683F</key>
+		<string>ssh://github.com/samvermette/SVPulsingAnnotationView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Demo/SVPulsingAnnotationView.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58D7174A-3287-4726-8985-F5AF8F10683F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/samvermette/SVPulsingAnnotationView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58D7174A-3287-4726-8985-F5AF8F10683F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58D7174A-3287-4726-8985-F5AF8F10683F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVPulsingAnnotationView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
