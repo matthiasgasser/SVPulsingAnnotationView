@@ -286,7 +286,7 @@
     return dotImage;
 }
 
--(void)setImageFromUrlAsString:(NSURL*)url success:(void (^)(UIImage *image))successBlock failure:(void (^)(NSError *error))failureBlock {
+-(void)setImageFromUrl:(NSURL*)url success:(void (^)(UIImage *image))successBlock failure:(void (^)(NSError *error))failureBlock {
     if(self.placeHolder!=nil) {
         [self.imageView hnk_setImageFromURL:url placeholderImage:self.placeHolder success:successBlock failure:failureBlock];
     } else {

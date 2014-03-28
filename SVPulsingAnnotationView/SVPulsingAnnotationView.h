@@ -19,6 +19,6 @@
 @property (nonatomic, readwrite) NSTimeInterval outerPulseAnimationDuration; // default is 3s
 @property (nonatomic, readwrite) NSTimeInterval delayBetweenPulseCycles; // default is 1s
 
--(void)setImageFromUrlAsString:(NSURL*)url success:(void (^)(UIImage *image))successBlock failure:(void (^)(NSError *error))failureBlock;
+-(void)setImageFromUrl:(NSURL*)url success:(void (^)(UIImage *image))successBlock failure:(void (^)(NSError *error))failureBlock;
 
 @end
